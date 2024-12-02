@@ -19,26 +19,28 @@ Bu oyunu bilgisayarınızda oynamak için tek yapmanız gereken, bu repo'yu klon
 
 git clone https://github.com/username/CircleCraft.git
 
-2. Dosyaları Açın
+### 2. Dosyaları Açın
 Oyun dosyalarını bilgisayarınıza klonladıktan sonra, index.html dosyasını tarayıcınızda açarak oyunu oynayabilirsiniz.
 
-3. Tarayıcıda Başlatın
+### 3. Tarayıcıda Başlatın
 Yalnızca index.html dosyasını çift tıklayarak açın ve oyuna başlayın!
 
-Oynanış
+## Oynanış
 Başlangıçta, ekranda rehber dairesi ve zorluk seviyesi seçme menüsü yer alır.
 Oyuncu, fareyi kullanarak bir daire çizmeye başlar.
 Çizimin düzgünlüğü, başlangıç ve bitiş noktalarının arasındaki mesafe ile değerlendirilir.
 Her çizimden sonra düzgünlük oranı gösterilir ve skoru izleyebilirsiniz.
 Beşinci tıklama sonunda, eğlenceli bir video başlar!
-Zorluk Seviyeleri
+
+## Zorluk Seviyeleri
 Kolay: Büyük rehber daire ile çizim yapmanız kolaydır.
 Orta: Daha küçük bir rehber daire ile çizim yapmanız gerekecek.
 Zor: Çok küçük bir rehber daire ile çizim yapmalısınız.
-Özelleştirmeler
+
+## Özelleştirmeler
 CircleCraft oyunu, basit yapısıyla özelleştirilmesi kolaydır. Oyun mekaniği, sesler ve görseller üzerinde değişiklik yapabilirsiniz.
 
-Katkıda Bulunma
+##Katkıda Bulunma
 Eğer bu projeye katkıda bulunmak isterseniz, lütfen pull request göndermeden önce bir issue açarak ne yapmak istediğinizi belirtin. Yardım etmek için her zaman açığız!
 
 Lisans
