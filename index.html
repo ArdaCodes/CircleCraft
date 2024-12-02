@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CircleCraft</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Favicon (ICO simgesi) ekleyin -->
+     <link rel="icon" href="icon.ico" type="image/x-icon">
+    </head>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div id="controls">
+            <label for="difficulty">Zorluk Seviyesi:</label>
+            <select id="difficulty">
+                <option value="easy">Kolay</option>
+                <option value="medium">Orta</option>
+                <option value="hard">Zor</option>
+            </select>
+            <button id="toggleTheme">Tıklama!
+        </div>
+        <canvas id="drawingCanvas" width="600" height="600"></canvas>
+        <div id="progressBarContainer">
+            <div id="progressBar"></div>
+        </div>
+        <div id="result">Düzgünlük: %0</div>
+        <button id="resetButton">Tekrar Dene</button>
+        <div id="highScores">En Yüksek Skor: %0</div>
+    </main>
+    <audio id="backgroundMusic" loop>
+        <source src="background-music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <button id="startMusicButton">Müziği Başlat</button>
+
+    <audio id="successSound" src="success.mp3"></audio>
+    <audio id="errorSound" src="error.mp3"></audio>
+    <script src="app.js"></script>
+</body>
+</html>
